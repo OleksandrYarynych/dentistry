@@ -1,0 +1,40 @@
+.teeth-block {
+  height: 500px;
+  width: 350px;
+  display: flex;
+  position: relative;
+  margin: 5px;
+}
+
+.teeth-block__img {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+.teeth-block__upper-text,
+.teeth-block__lower-text,
+.teeth-block__left-text,
+.teeth-block__right-text {
+  position: absolute;
+}
+
+.teeth-block__upper-text {
+  left: 120px;
+  top: 150px;
+}
+
+.teeth-block__lower-text {
+  left: 120px;
+  top: 350px;
+}
+
+.teeth-block__left-text {
+  left: 2px;
+  top: 245px;
+}
+
+.teeth-block__right-text {
+  left: 250px;
+  top: 245px;
+}

@@ -1,0 +1,80 @@
+.diseases-list-form {
+  width: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left:  10px;
+
+  .m-top {
+    margin-top: 5px;
+  }
+}
+
+.MuiSelect-select.MuiSelect-select {
+  width: 260px;
+}
+
+.diseases-list__wrapper {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  background-color: rgb(228, 228, 228);
+  text-align: center;
+  height: 300px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.disease-list__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+}
+
+.disease-list__text {
+  font-weight: bold;
+}
+
+.delete-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.table-header {
+  width: 100%;
+  padding: 0 0 0 10px;
+  background-color: rgb(228, 228, 228);
+  position: sticky;
+  top: 0;
+}
+
+.first-column,
+.third-column {
+  width: 20%;
+}
+
+.second-column {
+  width: 50%;
+}
+
+.fourth-column {
+  width: 10%;
+}
+
+.sum-block {
+  width: auto;
+}
+
+.sum-text {
+  font-size: 35px;
+  margin: 50px 0 0 65%;
+
+  @media(max-width:650px){
+    margin: 0 0 0 30%;
+  }
+}
