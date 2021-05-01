@@ -11,7 +11,7 @@ const AddedDiseasesList = (props) => {
           <p className="disease-list__text">Номер зуба</p>
         </td>
         <td className="second-column">
-          <p className="disease-list__text">Хвороба</p>
+          <p className="disease-list__text">Діагноз</p>
         </td>
         <td className="third-column">
           <p className="disease-list__text">Ціна в грн</p>
