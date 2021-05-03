@@ -1,26 +1,16 @@
 .maiv-first-block {
-  background-image: url("../img//makeup-tutorial-_-online-journal.png");
+  background-image: url('../img/firstbg.jpg');
   background-size: cover;
   background-position: center;
+  background-position-y: bottom;
+  background-position-x: right;
   width: 100%;
   height: 600px;
-  color: #ffff;
   padding: 0px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-
-  &::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    display: flex;
-    z-index: 2;
-    opacity: 0.1;
-    position: absolute;
-  }
 }
 
 .maiv-first-block-content {
