@@ -9,6 +9,7 @@ import FirstFullArticle from './Components/FullArticles/FirstFullArticle';
 import SecondFullArticle from './Components/FullArticles/SecondFullArticle';
 import ThirdFullArticle from './Components/FullArticles/ThirdFullArticle';
 import Service from './Components/ServicePage/Service';
+import Contacts from './Components/Contacts/Contacts';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
       <Route path='/main' component={Main} />
       <Route path='/blog' component={Blog} />
       <Route path='/service' component={Service} />
+      <Route path='/contacts' component={Contacts} />
       <Route path='/blogarticle1' component={FirstFullArticle} />
       <Route path='/blogarticle2' component={SecondFullArticle} />
       <Route path='/blogarticle3' component={ThirdFullArticle} />

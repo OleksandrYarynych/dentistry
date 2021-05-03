@@ -18,6 +18,7 @@ const MainFirstBlock = () => {
         <NavLink to="/contacts" style={{ textDecoration: "none" }}>
           <CustomButton>Зв'язатись</CustomButton>
         </NavLink>
+        
       </div>
     </div>
   );

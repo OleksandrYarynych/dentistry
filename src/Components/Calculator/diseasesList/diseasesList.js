@@ -72,7 +72,7 @@ const DiseasesItemList = () => {
           </Select>
         </FormControl>
         <FormControl>
-          <InputLabel id="demo-simple-select-label">Оберіть хворобу</InputLabel>
+          <InputLabel id="demo-simple-select-label">Оберіть діагноз</InputLabel>
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
@@ -97,7 +97,7 @@ const DiseasesItemList = () => {
             )
           }
         >
-          Додати хворобу
+          Додати діагноз
         </CustomButton>
       </form>
       <div>

@@ -41,9 +41,9 @@ const MobileNav = () => {
             <NavLink
               className="nav-link mobile-nav-link"
               activeClassName="active-nav-link"
-              to="/about"
+              to="/service"
             >
-              Про клініку
+              Послуги
             </NavLink>
           </li>
           <li>
