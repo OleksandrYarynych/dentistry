@@ -1,0 +1,92 @@
+.fuul-article-wrapper {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 25px 15px;
+
+  @media (max-width: 800px) {
+    margin-top: 70px;
+  }
+}
+
+.fuul-article-title-block {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.fuul-article-title {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.full-article-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.full-article-share-block {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-article-share-block-all-icons-block {
+  display: flex;
+  width: 100%;
+  max-width: 220px;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.full-article-share-block-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.full-article-share-block-icon-block {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+}
+
+.blue-icon {
+  &:hover {
+    background-color: blue;
+    color: white;
+  }
+}
+
+.red-block {
+  &:hover {
+    background-color: red;
+    color: white;
+  }
+}
+
+.light-blue-icon {
+  &:hover {
+    background-color: rgb(26, 160, 250);
+    color: white;
+  }
+}
+
+.full-article-comment-form {
+  margin-top: 35px;
+}
+
+.full-article-comment-form-text {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}

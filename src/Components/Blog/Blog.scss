@@ -1,0 +1,42 @@
+.blog-wrapper{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+
+  @media(max-width:800px){
+    margin-top: 70px;
+  }
+}
+
+.blog-main-title-block{
+  width: 100%;
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.blog-main-title{
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.short-articles-vertical{
+  flex-direction: column;
+}
+
+.padding-25px{
+  padding: 25px 15px;
+}
+
+.bigger-font-link{
+  font-size: 86px;
+}
+
+.bigger-article-font{
+
+}
+
+.bigger-font-black-link{
+
+}
