@@ -11,7 +11,7 @@ import Sum from "./Sum";
 import "./diseasesList.scss";
 
 const DiseasesItemList = () => {
-  const [selectedTooth, setSelectedTooth] = useState(teethBlocks[0]);
+  const [selectedTooth, setSelectedTooth] = useState(teethBlocks[0]); //номер зуба вибраного в селекті
   const [selectedDiseases, setSelectedDiseases] = useState(
     selectedTooth.diseasesId[0]
   );
